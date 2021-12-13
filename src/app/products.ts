@@ -19,6 +19,13 @@ export const products = [
   },
 ];
 
+export class Product {
+  id!: number;
+  name!: String;
+  price!: number;
+  description!: String;
+}
+
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
